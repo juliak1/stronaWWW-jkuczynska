@@ -1,7 +1,8 @@
 ﻿body {
-	background-image: url(background.jpg)
+	background-image: url(zdj/background.jpg)
 	
 }
+
 
 #header {
     font-family: 'Oldenburg', cursive;
@@ -28,11 +29,10 @@
     background-color:white;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    
     /*width:350px;
-    float:left;
-    padding:100px;*/
+    float:left;*/
+    padding:10px;
     text-align:center;
     width: 75%;
     margin-left: auto;
@@ -51,5 +51,5 @@ text-align:left;
     color:white;
     clear:both;
     text-align:center;
-    padding:5px;
+    padding:2px;
 }
