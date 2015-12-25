@@ -19,10 +19,15 @@
 #nav {
     line-height:30px;
     background-color:#eeeeee;
-    height:300px;
-    width:100px;
+    height:220px;
+    width:120px;
     float:left;
     padding:5px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align:center;
 }
 #section {
 	
@@ -52,4 +57,9 @@ text-align:left;
     clear:both;
     text-align:center;
     padding:2px;
+}
+
+#tabela td {
+   border: 1px solid black;
+   padding: 5px;
 }
