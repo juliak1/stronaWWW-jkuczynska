@@ -4,7 +4,7 @@
 }
 
 
-#header {
+.header {
     font-family: 'Oldenburg', cursive;
     background-color:black;
     color:white;
@@ -16,7 +16,7 @@
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
-#nav {
+/*.nav {
     line-height:30px;
     background-color:#eeeeee;
     height:220px;
@@ -28,8 +28,54 @@
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     text-align:center;
+}*/
+
+
+
+
+.menu ul, ul li {
+	display: block;
+	list-style: none;
+	float:center;
+    padding:5px;
+	
 }
-#section {
+
+.menu ul {
+	position: absolute; 
+}
+
+.menu ul li {
+	float: center;
+	
+	border-color: transparent #25b #25b #9ce;
+}
+
+.menu ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	text-align: center;
+	padding: 5px 0;
+	font-weight: bold;
+	background-color: #27c;
+	color: #def;
+	border-top: 10px solid #25b;
+	 border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px; 
+}
+
+.menu ul a:hover {
+	background-color: #28e;
+	color: #fff;
+	border-top: 20px solid #26d;
+
+}
+
+
+.section {
 	
     background-color:white;
     border-top-right-radius: 25px;
@@ -44,14 +90,14 @@
 margin-right: auto;
   
 }
-#zrodlo {
+.zrodlo {
 text-align:right;
 padding:10px;
 }
-#lista {
+.lista {
 text-align:left;
 }
-#footer {
+.footer {
     background-color:black;
     color:white;
     clear:both;
@@ -59,7 +105,7 @@ text-align:left;
     padding:2px;
 }
 
-#tabela td {
+.tabela td {
    border: 1px solid black;
    padding: 5px;
 }
