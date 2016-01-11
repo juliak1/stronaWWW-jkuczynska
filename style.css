@@ -43,6 +43,7 @@
 
 .menu ul {
 	position: absolute; 
+	float:center; /**/
 }
 
 .menu ul li {
@@ -65,12 +66,14 @@
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px; 
+	float:center; /**/
 }
 
 .menu ul a:hover {
 	background-color: #28e;
 	color: #fff;
 	border-top: 20px solid #26d;
+	float:center; /**/
 
 }
 
